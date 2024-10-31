@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="32x32" href="https://arch.agency/wp-content/themes/arch-web/favicon/favicon-32x32.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="res.css">
+    <title>ARCH | Home </title>
+</head>
+<body>
+    <div id="main">
+    <div class="loader">
+        <h4 id="counter" >0</h4>
+        <div class="dots">
+        </div>
+    </div>
+    <nav class="navbar">
+        <div class="logo">
+            <img src="./Asserts/Group-3-2.svg" alt="">
+        </div>
+        <ul class="nav-links">
+            <div class="el">
+                <li><a href="#" data-text="Case Studies" >Case Studies</a></li>
+            </div>
+            <div class="el">
+                <li><a href="#" data-text="About Us" >About Us</a></li>
+            </div>
+            <div class="el">
+                <li><a href="#" data-text="Careers" >Careers</a></li>
+            </div>
+            <div class="el">
+                <li><a href="#" data-text="UGC ↗" >UGC ↗</a></li>
+            </div>
+            <div class="el">
+                <li><a href="#" data-text="Contact" >Contact</a></li>
+            </div>
+        </ul>
+    </nav>
+    <main>
+        <div id="hero">
+            <div class="hero-left">
+                <div>
+                    <h1>leading </h1>
+                  <h1>influencer</h1>   
+                    <h1>marketing</h1> 
+                    <h1>agency for</h1> 
+                    <h1>games & apps</h1>
+                </div>
+                    <h3>We’ve rolled with over 4,000 influencers across both Americas, Europe, MENA and Australia.</h3>
+            </div>
+            <div class="hero-right">
+                <div class="video-div">
+                    <video muted loop autoplay src="/Asserts/Reel-2024-Preview-V1-resized.mp4"></video>
+                </div>
+                <div class="play">
+                    <h3>PLAY VIDEO <span>‣</span></h3>
+                </div>
+            </div>
+        </div>
+        
+        <div id="projects">
+            <div id="p1">
+                <div class="circle flex">
+                    <h1 id="circle-arrow">↓</h1>
+                </div>
+                <div class="p-text">
+                    <h1>FEATURED PROJECTS</h1>
+                    <h3>Influencer marketing with tangible results</h3>
+                </div>
+            </div>
+            <div id="pros">
+                <div class="project">
+                    <p class="case">read case study</p>
+                    <img src="./Asserts/WoT-featured-min.jpeg" alt="">
+                    <video class="vid" autoplay muted loop src="./Asserts/WG-preview (1).mp4"></video>
+                    <h1>wargaming</h1>
+                    <div class="pros-flex">
+                        <h1>550 <br> <span>influencers</span></h1>
+                        <h1>1500 <br> <span>activations</span></h1>
+                        <h1>30 <br> <span>countries</span></h1>
+                    </div>
+                </div>
+                <div class="project">
+                    <p class="case">read case study</p>
+                    <img src="./Asserts/DD-featured.webp" alt="">
+                    <video class="vid" autoplay muted loop src="./Asserts/DD-preview.mp4"></video>
+                    <h1>dice dreams</h1>
+                    <div class="pros-flex">
+                        <h1>500 <br> <span>influencers</span></h1>
+                        <h1>1500 <br> <span>activations</span></h1>
+                        <h1>15 <br> <span>countries</span></h1>
+                    </div>
+                </div>
+                <div class="project">
+                    <p class="case">read case study</p>
+                    <img src="./Asserts/MM-featured.webp" alt="">
+                    <video class="vid" autoplay muted loop src="/Asserts/Reel-2024-Preview-V1-resized.mp4"></video>
+                    <h1>wargaming</h1>
+                    <div class="pros-flex">
+                        <h1>#1 <br> <span>in 15 countries</span></h1>
+                        <h1>1500 <br> <span>influencers</span></h1>
+                        <h1>2000 <br> <span>activations</span></h1>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+
+        <div id="roll">
+            <div class="roll1">
+                <img class="roll-img" src="/Asserts/download.png" alt="Image">
+            </div>
+            <div class="roll2">
+                <h1>Here’s how we <br>
+                    roll</h1>
+                <h3>Check out our game plan for <br>
+                    delivering results</h3>
+            </div>
+        </div>
+
+        <div id="roll-slides">
+            <div class="slider-container">
+                <div class="con-btns">
+                    <div class="dots-container">
+                        <div class="dot" data-slide="0"></div>
+                        <div class="dot" data-slide="1"></div>
+                        <div class="dot" data-slide="2"></div>
+                        <div class="dot" data-slide="3"></div>
+                        <div class="progress-line-container">
+                            <div class="progress-line"></div>
+                        </div>
+                    </div>
+                    <div class="btns">
+                        <button onclick="pervSlide()" >←</button>
+                        <button onclick="nextSlide()" >→</button>
+                    </div>
+                </div>
+                <div class="slider">
+                    <div class="slide">
+                        <h2><li></li>breifing</h2>
+                        <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam quo asperiores atque, voluptates a aliquam deleniti? Nemo adipisci quas quos? Expedita illum dignissimos temporibus quae porro! Beatae error sequi dicta?</h3>
+                    </div>
+                    <div class="slide">
+                        <h2><li></li>influencers <br> scouting and <br> negotiation</h2>
+                        <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam quo asperiores atque, voluptates a aliquam deleniti? Nemo adipisci quas quos? Expedita illum dignissimos temporibus quae porro! Beatae error sequi dicta?</h3>
+                    </div>
+                    <div class="slide">
+                        <h2><li></li>content <br> creation and <br> going live</h2>
+                        <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam quo asperiores atque, voluptates a aliquam deleniti? Nemo adipisci quas quos? Expedita illum dignissimos temporibus quae porro! Beatae error sequi dicta?</h3>
+                    </div>
+                    <div class="slide">
+                        <h2><li></li>debriefing</h2>
+                        <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam quo asperiores atque, voluptates a aliquam deleniti? Nemo adipisci quas quos? Expedita illum dignissimos temporibus quae porro! Beatae error sequi dicta?</h3>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+
+        <div id="client">
+            <div id="client-left">
+                <div class="left-top">
+                    <h2><li>Our Clients</li></h2>
+
+                    <h1>5 years. Over 4000
+                        creators & client
+                        matches. Across 5
+                        continents.</h1>
+                </div>
+                <div class="left-btn">
+                    <h3>let's partner up</h3>
+                </div>
+            </div>
+            <div id="client-right">
+                <img src="https://arch.agency/wp-content/uploads/2024/09/Red-Bull.svg" alt="Red-Bull">
+                <img src="https://arch.agency/wp-content/uploads/2024/09/SAMSUNG.svg" alt="SAMSUNG">
+                <img src="https://arch.agency/wp-content/uploads/2024/09/Hr-Telekom.svg" alt="Hr-Telekom">
+                <img src="https://arch.agency/wp-content/uploads/2024/09/incogni.svg" alt="Incogni">
+                <img src="https://arch.agency/wp-content/uploads/2024/09/Surfshark.svg" alt="Surfshark">
+                <img src="https://arch.agency/wp-content/uploads/2024/09/ABOUT-YOU.svg" alt="ABOUT-YOU">
+                <img src="https://arch.agency/wp-content/uploads/2024/09/Wargaming.svg" alt="Wargaming">
+                <img src="https://arch.agency/wp-content/uploads/2024/09/SuperPlay.svg" alt="SuperPlay">
+                <img src="https://arch.agency/wp-content/uploads/2024/09/Candivore.svg" alt="Candivore">
+                <img src="https://arch.agency/wp-content/uploads/2024/09/BINANCE.svg" alt="BINANCE">
+                <img src="https://arch.agency/wp-content/uploads/2024/09/NetEase-Games.svg" alt="NetEase-Games">
+                <img src="https://arch.agency/wp-content/uploads/2024/09/TSG.svg" alt="TSG">
+            </div>
+        </div>
+
+        <div class="infl-team">
+            <div class="inf-left">
+                <h2><li>Influencers we roll with</li></h2>
+
+                <div class="hs">
+                    <h1 class="in-h1" >NARUCIAK</h1>
+                    <h2 class="in-h2" >3.3M</h2>
+                </div>
+            </div>
+            <div class="islider">
+                <div class="islide current" id="slide1">
+                  <img src="https://arch.agency/wp-content/uploads/2024/09/NARUCIAK.png" alt="Image 1">
+                </div>
+                <div class="islide" id="slide2">
+                  <img src="https://arch.agency/wp-content/uploads/2024/09/Murat-Soner.jpg" alt="Image 2">
+                </div>
+                <div class="islide" id="slide3">
+                  <img src="https://arch.agency/wp-content/uploads/2024/09/Beta-Squad.jpeg" alt="Image 3">
+                </div>
+                <div class="islide" id="slide3">
+                  <img src="https://arch.agency/wp-content/uploads/2024/09/lufy.jpg" alt="Image 3">
+                </div>
+              </div>
+        </div>
+
+        <div class="team">
+            
+            <div class="tslider ">
+                <div class="tslide current" id="tslide1">
+                  <img src="https://arch.agency/wp-content/uploads/2024/09/team1.png" alt="Image 1">
+                </div>
+                <div class="tslide" id="tslide2">
+                  <img src="https://arch.agency/wp-content/uploads/2024/09/team-4.png" alt="Image 2">
+                </div>
+                <div class="tslide" id="tslide3">
+                  <img src="https://arch.agency/wp-content/uploads/2024/09/team6.png" alt="Image 3">
+                </div>
+                <div class="tslide" id="tslide3">
+                  <img src="https://arch.agency/wp-content/uploads/2024/09/team6.png" alt="Image 3">
+                </div>
+              </div>
+              <div class="t-left">
+                <h2><li>meet our teams</li></h2>
+
+                <h1>30 expert fluent in 100 languages only one focus: growth.</h1>
+            </div>
+        </div>
+
+        <div class="social">
+            <div class="so1">
+                <h1>WE LOVE ALL <br>
+                    PLATFROMS</h1>
+                <h2>WE'RE RESULTS-DRIVEN. <br> WHATEVER PLATFORM BRINGS <br> RESULTS, WE'RE ON IT.</h2>
+            </div>
+            <div class="so2">
+                <div class="so-slide">
+                    <img src="https://arch.agency/wp-content/uploads/2024/09/TikTok-1.svg" alt="">
+                </div>
+                <div class="so-slide">
+                    <img src="https://arch.agency/wp-content/uploads/2024/09/YouTube-1.svg" alt="">
+                </div>
+                <div class="so-slide">
+                    <img src="https://arch.agency/wp-content/uploads/2024/09/Twitch-1.svg" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="patners">
+            <div class="pa2">
+                <div class="p-slide">
+                    <img src="https://arch.agency/wp-content/uploads/2024/09/Lider.svg" alt="">
+                </div>
+                <div class="p-slide">
+                    <img src="https://arch.agency/wp-content/uploads/2024/09/Mobilegamer.png" alt="">
+                </div>
+                <div class="p-slide">
+                    <img src="https://arch.agency/wp-content/uploads/2024/09/IMH.png" alt="">
+                </div>
+            </div>
+            <div class="pa1">
+                <h1>FEATURED in top <br>
+                    industry mags</h1>
+                <h2>hyped to see our name in the <br> top industry OUTLETS.</h2>
+            </div>
+            
+        </div>
+
+        <div class="con1">
+            <div class="conp1">
+                <h1>cut the flutt. <br> let's get in <br> touch.</h1>
+                <h2>get the partner who's all about <br> results-no iffs, ands, or buts. </h2>
+            </div>
+            <img src="/Asserts/download.png" alt="" class="roll-img conimg">
+        </div>
+
+    </main>
+    <footer >
+        <div class="social-links">
+            <a href="#">Instagram</a>
+            <a href="#">LinkedIn</a>
+            <a href="#">Tiktok</a>
+        </div>
+        <div class="fot-con">
+            <a href="">PRIVACY POLICY</a>
+            <a href="">COOKIE POLICY</a>
+            <a href="">© 2024. ARCH.</a>
+        </div>
+    </footer>
+</div>
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="script.js"></script>
+</body>
+</html>

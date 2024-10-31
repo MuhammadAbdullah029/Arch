@@ -298,7 +298,7 @@ body{
     border-radius: 35px;
     background-color: #FFFFFF;
     position: relative;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 .project img{
     width: 100%;
@@ -307,6 +307,7 @@ body{
     position: absolute;
     top: 0%;
     z-index: 11;
+    border-radius: 35px;
 }
 .project:hover img{
     display: none;

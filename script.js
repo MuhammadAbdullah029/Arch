@@ -32,10 +32,7 @@ let project = document.querySelectorAll(".project");
 project.forEach(elem => {
     console.log(elem.childNodes);
     elem.childNodes[5].addEventListener("mouseenter", function(){
-        elem.childNodes[5].play();
-    });
-    elem.childNodes[5].addEventListener("mouseleave", function(){
-        elem.childNodes[5].pause();
+        elem.childNodes[5].load();
     });
     
     elem.addEventListener("mouseenter", function(){
@@ -110,16 +107,28 @@ function updateProgressLine(index) {
 function nextSlide() {
     currentSlide = (currentSlide + 1) % totalSlides;
     showSlide(currentSlide);
+    gsap.from(".slide h2, .slide h3", {
+      y: 65,
+      opacity: 0
+    })
 }
 function pervSlide() {
-    currentSlide = (currentSlide - 1) % totalSlides;
+    currentSlide = (currentSlide - 1 + totalSlides) % totalSlides;
     showSlide(currentSlide);
+    gsap.from(".slide h2, .slide h3", {
+      y: 65,
+      opacity: 0
+    })
 }
 
 
 dots.forEach((dot, index) => {
     dot.addEventListener('click', () => {
         showSlide(index);
+        gsap.from(".slide h2, .slide h3", {
+          y: 65,
+          opacity: 0
+        })
     });
 });
 
